@@ -1,0 +1,7 @@
+Each subfolder, e.g., aa2ar, of each dataset, i.e., DUDE, has the following files:
+    1) pdb.pdb        : The native 3D structure of the receptor in the complex of receptor and ligand
+    2) crys.mol2      : The native 3D structure of the ligand in the complex of receptor and ligand
+    3) BSITE.txt      : The binding residue indexes in the receptor which bind the ligand
+                      : In this file, each line is a residue index, (P.S., 0 means the first residue in receptor)
+    4) lig_decoy.mol2 : The 3D structure of the initial decoy, whose ligand type is same to crys.mol2 but different pose
+    
